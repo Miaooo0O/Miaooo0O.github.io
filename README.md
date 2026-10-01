@@ -99,9 +99,10 @@ public/ 和 node_modules/ 不上传，会自动重新生成。source/_drafts/ �
 
 ## 本博客的正式地址
 
-部署成功后的网址：https://miaooo0o.github.io/
+部署成功后的网址：https://Miaooo0O.github.io/
 
 对应仓库：https://github.com/Miaooo0O/Miaooo0O.github.io
 
 仓库使用 GitHub Actions 自动发布，向 main 分支推送修改后即可更新网站。
+
 
