@@ -1,0 +1,38 @@
+# 当前博客主题设置，修改后重启本地预览。
+scheme: Gemini
+darkmode: false
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  about: /about/ || fa fa-user
+menu_settings:
+  icons: false
+  badges: true
+sidebar:
+  position: left
+  display: always
+  offset: 24
+social:
+  GitHub: https://github.com/Miaooo0O || fab fa-github
+social_icons:
+  enable: false
+toc:
+  enable: true
+  number: false
+  wrap: true
+  expand_all: true
+back2top:
+  enable: true
+  scrollpercent: true
+reading_progress:
+  enable: true
+  color: '#297c70'
+font:
+  enable: false
+motion:
+  enable: false
+custom_file_path:
+  variable: source/_data/variables.styl
+  style: source/_data/styles.styl

@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 我的博客
+title: Miaooo0O 的手记
 subtitle: '记录学习，也记录生活'
 description: '学习笔记与生活记录'
 keywords:
-author: weak
+author: Miaooo0O
 language: zh-CN
 timezone: Asia/Hong_Kong
 
@@ -96,12 +96,13 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: diary
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
 
 
 
