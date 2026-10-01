@@ -66,3 +66,18 @@ body {
     background-attachment: scroll;
   }
 }
+/* 背景图片单独虚化，正文保持清晰。 */
+body {
+  background: #f4f3ee;
+  position: relative;
+  isolation: isolate;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: -12px;
+  z-index: -1;
+  background: linear-gradient(rgba(244, 243, 238, .18), rgba(244, 243, 238, .18)), url('/images/background.jpg') center / cover;
+  filter: blur(6px);
+  pointer-events: none;
+}
