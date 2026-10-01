@@ -46,7 +46,7 @@ git add 选择改动，git commit 保存本地版本，git push 上传并自动�
 - source/about/index.md：关于页。
 - scaffolds/post.md：新建文章的模板。
 
-改整页背景：在 source/_data/styles.styl 修改 body 中的 background 色值。
+更换整页背景：替换 source/images/background.jpg。图片上覆盖了浅色层，透明度可在 source/_data/styles.styl 最后的 body 样式中修改；数字越大，背景越淡。
 改标题区颜色：修改 .site-brand-container 中的 background 色值。
 
 旧 Landscape 主题保留在 themes/diary，可将 _config.yml 中 theme 改为 diary 切回；不同主题使用各自的配置和样式文件。
@@ -70,3 +70,4 @@ npm run build
 ```
 
 public/ 是生成的网页，node_modules/ 是依赖，两者都可以重新生成，不上传仓库。
+
