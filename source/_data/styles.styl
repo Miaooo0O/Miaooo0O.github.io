@@ -81,3 +81,29 @@ body::before {
   filter: blur(6px);
   pointer-events: none;
 }
+/* 页脚放在页面底部，短页面不再停在图片中央。 */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: auto;
+}
+.main {
+  flex: 1 0 auto;
+}
+.footer, .footer.footer-fixed {
+  position: relative;
+  flex-shrink: 0;
+  margin-top: auto;
+  padding: 18px 0;
+  background: transparent;
+  border-radius: 0;
+}
+.footer .footer-inner {
+  width: max-content;
+  max-width: calc(100% - 32px);
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, .78);
+  border-radius: 12px;
+}
