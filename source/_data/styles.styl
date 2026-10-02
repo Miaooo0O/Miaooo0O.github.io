@@ -107,3 +107,60 @@ body {
   background: rgba(255, 255, 255, .78);
   border-radius: 12px;
 }
+
+/* 小互动只覆盖视觉层，不阻挡阅读与点击。 */
+.miao-glow {
+  position: fixed;
+  left: -90px;
+  top: -90px;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(255, 229, 238, .22), transparent 70%);
+  pointer-events: none;
+  z-index: 999;
+  opacity: 0;
+  transition: opacity .25s;
+}
+.miao-glow.is-visible {
+  opacity: 1;
+}
+.miao-petal {
+  position: fixed;
+  width: 8px;
+  height: 12px;
+  background: #efb6c7;
+  border-radius: 70% 15% 70% 15%;
+  pointer-events: none;
+  z-index: 1000;
+}
+.miao-petal-button {
+  display: block;
+  margin: 14px auto 0;
+  padding: 3px 9px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #ecc3cf;
+  cursor: pointer;
+  font-size: 21px;
+  transition: transform .2s, color .2s;
+}
+.miao-petal-button:hover {
+  transform: rotate(22deg);
+  color: #fff;
+}
+.miao-petal-button:focus-visible {
+  outline: 2px solid #ecc3cf;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .miao-glow, .miao-petal {
+    display: none;
+  }
+  .miao-petal-button {
+    transition: none;
+  }
+  .miao-petal-button:hover {
+    transform: none;
+  }
+}
