@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/开天辟地.md",
+                "file": "source/_posts/001.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开天辟地"
+              "title": "001"
             }
           }
         ]
@@ -190,9 +190,11 @@
   },
   "active": "801bf5a23fa75b78",
   "lastOpenFiles": [
-    "source/_posts/first-post.md",
     "source/_posts/开天辟地.md",
+    "source/_posts/001.md",
     "写作模板.md",
+    "source/_posts/未命名.md",
+    "source/_posts/first-post.md",
     "README.md",
     "preview.png"
   ]
