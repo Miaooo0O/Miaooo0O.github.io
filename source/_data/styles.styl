@@ -164,3 +164,93 @@ body {
     transform: none;
   }
 }
+
+/* 系列标记随文章名称自动生成，颜色之外也用文字区分。 */
+article[data-miao-palette='blue'] {
+  --series-ink: #245d85;
+  --series-tint: #edf6fc;
+  --series-line: #8fc5e4;
+}
+article[data-miao-palette='violet'] {
+  --series-ink: #694487;
+  --series-tint: #f6effb;
+  --series-line: #c2a1df;
+}
+article[data-miao-palette='rose'] {
+  --series-ink: #943c5b;
+  --series-tint: #fff0f4;
+  --series-line: #e4a5ba;
+}
+article[data-miao-palette='gold'] {
+  --series-ink: #805a16;
+  --series-tint: #fff8e8;
+  --series-line: #dfc07a;
+}
+article[data-miao-palette='green'] {
+  --series-ink: #2f6b50;
+  --series-tint: #edf8f0;
+  --series-line: #91c7a5;
+}
+.post-content[data-miao-series] {
+  background: linear-gradient(160deg, var(--series-tint), #fff 75%);
+  border-top: 4px solid var(--series-line);
+}
+.miao-series-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 16px;
+  padding: 5px 13px 5px 5px;
+  border: 1px solid var(--series-line);
+  border-radius: 9px;
+  background: var(--series-tint);
+  color: var(--series-ink);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+.miao-series-icon {
+  display: inline-flex;
+  position: relative;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--series-line);
+  border-radius: 6px;
+  background: var(--series-tint);
+  color: var(--series-ink);
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  letter-spacing: 0;
+}
+.miao-series-icon b {
+  font-size: 17px;
+}
+.miao-series-icon small {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  font-size: 7px;
+}
+.posts-collapse .miao-series-archive-icon {
+  display: inline-flex;
+  vertical-align: middle;
+  margin-right: 9px;
+}
+.posts-collapse .miao-series-icon {
+  width: 26px;
+  height: 26px;
+}
+.posts-collapse .miao-series-icon b {
+  font-size: 15px;
+}
+.posts-collapse article[data-miao-series] .post-title-link {
+  color: var(--series-ink);
+}
+.posts-collapse article[data-miao-series] .post-header {
+  border-bottom-color: var(--series-line);
+}
