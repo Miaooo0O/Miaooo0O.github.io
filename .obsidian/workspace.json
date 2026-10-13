@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/001.md",
+                "file": "source/_posts/006.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001"
+              "title": "006"
             }
           }
         ]
@@ -190,12 +190,37 @@
   },
   "active": "801bf5a23fa75b78",
   "lastOpenFiles": [
+    "source/_posts/007.md",
+    "source/_posts/008.md",
+    "source/_posts/006.md",
+    "public/2026/10/07/006/index.html",
+    "public/2026/10/07/006",
+    "source/_posts/005.md",
+    "public/images/22cb173fbee1b7aebc17a8f1667673f8.jpg",
+    "public/images/be271f70d05899abfe4fa567b2b74e1b.jpg",
+    "public/images/49f1878ea5beb78fcb8d0712eeaea6a7.jpg",
+    "public/images/5b4d70759d7fe230853f9fe208e224b8.jpg",
+    "public/images/c68cc00865657b76f5d31591b86342d6.jpg",
+    "public/images/7e36861ebcfe909e325459f31de186d2.jpg",
+    "public/images/cca094082d60ce5e5799a285a28b6cb0.jpg",
+    "public/images/d970aa21c1406ffd9a7c7042fd8d8389.jpg",
+    "public/images/163990e90e0b9fed1ba5afda71fe63d7.jpg",
+    "public/images/a56c1a5a5983410410c29c7262d9f704.jpg",
+    "public/2026/10/07/005/index.html",
+    "public/2026/10/07/005",
+    "public/2026/10/07",
+    "public/2026/10/05/004/index.html",
+    "public/2026/10/05/004",
+    "public/2026/10/05",
+    "source/_posts/004.md",
+    "source/_posts/003.md",
     "source/_posts/开天辟地.md",
+    "public/2026/10/04/003/index.html",
+    "public/2026/10/04/003",
+    "source/_posts/002.md",
     "source/_posts/001.md",
     "写作模板.md",
-    "source/_posts/未命名.md",
     "source/_posts/first-post.md",
-    "README.md",
-    "preview.png"
+    "README.md"
   ]
 }
